@@ -1,0 +1,68 @@
+h1 {
+  font-size: 50px;
+  font-family: Helvetica, sans-serif;
+  padding: 8px;
+}
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  padding-left: 40px;
+}
+
+a {
+  padding: 20px;
+  white-space:pre-line;
+  display: block;
+  text-decoration: none;
+  color: rgb(39, 119, 194);
+}
+
+a:hover {
+  color: rgb(219, 121, 92);
+}
+
+.qa_box {
+  height: 140px;
+  width: 800px;
+  font-size: 30px;
+}
+
+#answer {
+  background-color: rgb(255, 255, 233);
+  padding: 20px;
+  display: inline-block;
+}
+
+#question {
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+}
+
+p {
+  padding: 10px;
+  font-family: Helvetica, italic;
+}
